@@ -36,9 +36,9 @@ MySensors stuff
 
 #define MY_GATEWAY_ESP8266
 
-#define MY_ESP8266_SSID "AWiseM"
-#define MY_ESP8266_PASSWORD "DenHaag2000"
-#define MY_IP_ADDRESS 192,168,2,121
+#define MY_ESP8266_SSID "<your SSID>"
+#define MY_ESP8266_PASSWORD "<you password>"
+#define MY_IP_ADDRESS 192,168,2,121  				// your IP information
 #define MY_IP_GATEWAY_ADDRESS 192,168,2,254
 #define MY_IP_SUBNET_ADDRESS 255,255,255,0
 // The port to keep open on node server mode
@@ -87,7 +87,7 @@ const float UTC_OFFSET = 1;
 
 // Wunderground Settings
 const boolean IS_METRIC = true;
-const String WUNDERGROUND_API_KEY =  "35b23101411e8e45" ; // key 1 "35b23101411e8e45"; //key 2 "a32e662a62R5ec8"
+const String WUNDERGROUND_API_KEY =  "<Your API key" ; 
 const String WUNDERGROUND_LANGUAGE = "NL";
 const String WUNDERGROUND_QUERY = "pws:IFLEVOLA27";
 
